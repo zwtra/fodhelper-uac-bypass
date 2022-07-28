@@ -1,5 +1,5 @@
 extern "C" unsigned int call_proc(unsigned int proc, int _args, ...);
-extern "C" unsigned int uac_bypass(char*, unsigned int, unsigned int, unsigned int, unsigned int);
+extern "C" unsigned int uac_bypass(const char*, unsigned int, unsigned int, unsigned int, unsigned int);
 extern "C" unsigned int f_kernel32(unsigned int&, unsigned int&);
 
 #define UAC_ARG     "ARGUMENT0"
